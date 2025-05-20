@@ -19,16 +19,19 @@ Helps you to maintain your project's README by automatically providing up-to-dat
 3. **You should see similar output in your README.md**
     <!-- TREEVIEW START -->
     ```bash
-    ├── example-directory/
-    │   ├── build/
-    │   ├── scripts/
-    │   ├── src/
-    │   │   ├── backend/
-    │   │   │   └── server/
-    │   │   └── frontend/
-    │   │       ├── js/
-    │   │       └── styles/
-    │   └── tests/
+       voice_assistant/
+       │
+       ├── frontend/
+       │   ├── index.html
+       │   └── script.js
+       ├── Model/
+       │   └── vosk-model-small-en-us-0.15 
+       ├── server/
+       │   ├── app_2.py
+       │   └── menu.json
+       ├── venv/
+       ├── README.md
+       └── requirements.txt
     ```
 
     <!-- TREEVIEW END -->
